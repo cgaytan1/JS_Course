@@ -1,15 +1,13 @@
 "use strict"
 
-var nombre = "Cesar";
+var edad = 35;
 
-console.log(nombre);
+var cantidad = "100";
 
-function saludo() {
-    let nombre = 'cesarson';
-    console.log(nombre);
-    
-    let edad = 34;
-    console.log(edad);
-}
+var nuevaCantidad = Number(cantidad);
 
-saludo();
+//Función para declarar números enteros.
+parseInt();
+
+//Función para declarar números decimales(flotantes).
+parseFloat();
