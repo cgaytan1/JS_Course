@@ -1,7 +1,19 @@
 "use strict"
 
-// Los valores simbol son unicos en sí, aunque parezca que no.
-var simbolo1 = Symbol();
-var simbolo2 = Symbol();
+// JSON -> JavaScript Object Notation
 
-var ambiente = Symbol('dev');
+var persona = {nombre: 'Sergio', twitter: 'yacafx'};
+
+// Array de datos
+var personas = [
+    {nombre: 'Hugo', twitter: 'dcHugo'},
+    {nombre: 'Paco', twitter: 'dcPaco'},
+    {nombre: 'Luis', twitter: 'dcLuis'},
+    persona
+]
+
+// Convirtiendo datos en cadena de texto para el envio a un servidor.
+var personaJSON = JSON.stringify(persona);
+
+// Reconvirtiendo datos en formato de objeto para una mejor lectura y manipulación.
+var nuevaPersona = JSON.parse(personaJSON);
