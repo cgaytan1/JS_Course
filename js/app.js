@@ -1,13 +1,12 @@
 "use strict"
 
-var edad = 35;
+var bebida = "agua";
 
-var cantidad = "100";
+var comida = "ceviche";
 
-var nuevaCantidad = Number(cantidad);
+var instruccion = "El platillo se llama 'Ceviche' ";
 
-//Función para declarar números enteros.
-parseInt();
+var edad = 34;
 
-//Función para declarar números decimales(flotantes).
-parseFloat();
+//Función para convertir cualquier dato a texto.
+var edadtxt = String(edad);
