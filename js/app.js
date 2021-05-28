@@ -1,12 +1,7 @@
 "use strict"
 
-var bebida = "agua";
+// Uso booleano estableciendo TRUE o FALSE
+var activo = false;
 
-var comida = "ceviche";
-
-var instruccion = "El platillo se llama 'Ceviche' ";
-
-var edad = 34;
-
-//Función para convertir cualquier dato a texto.
-var edadtxt = String(edad);
+// Función que establece si un valor es TRUE or FALSE automaticamente
+var estado = Boolean(10 < 9);
