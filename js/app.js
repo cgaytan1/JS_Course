@@ -1,7 +1,11 @@
 "use strict"
 
-// Uso booleano estableciendo TRUE o FALSE
-var activo = false;
+var fecha = new Date();
 
-// Función que establece si un valor es TRUE or FALSE automaticamente
-var estado = Boolean(10 < 9);
+/*
+fecha.getDay() -> Día de la semana
+fecha.getDate() -> Día del mes
+fecha.getHours() -> La hora especifica
+Etc, basta con poner fecha.get... apareceran todas las opciones disponibles.
+Cambiar el GET por el SET nos permitira personalizar los datos que queremos que se muestren según nuestra necesidad.
+*/
